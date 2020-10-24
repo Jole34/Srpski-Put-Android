@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CrnaGoraActivity">
+
+    <RelativeLayout
+        android:layout_weight=".3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+
+            android:id="@+id/listaManastiraCG"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight=".6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/odabranaCG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="28dp"
+            android:layout_marginRight="28dp"
+            android:layout_marginBottom="113dp"
+            android:textColor="#096154"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/detaljiCG"
+            android:layout_width="117dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="238dp"
+            android:layout_marginRight="238dp"
+            android:layout_marginBottom="22dp"
+            android:background="@color/colorAccent"
+            android:text="Детаљније" />
+
+        <TextView
+            android:id="@+id/odabirCG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="233dp"
+            android:layout_marginRight="233dp"
+            android:layout_marginBottom="114dp"
+            android:textColor="#096154"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+</LinearLayout>

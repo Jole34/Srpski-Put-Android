@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name" translatable="false">Српски пут</string>
+    <string name="todo322">TODO</string>
+    <string name="logoTEXT" translatable="false"> И када бих на коленима морао да се вучем до цркве, ја бих то чинио, само да не останем без Светог Причешћа </string>
+    <string name="todo32" translatable="false">TODO</string>
+    <string name="firstPage" translatable="false">Button</string>
+    <string name="ks" translatable="false">Косово и Метохија</string>
+    <string name="ock" translatable="false">Овчарско-кабларска клисура</string>
+    <string name="ot" translatable="false">ОТВОРИ</string>
+    <string name="ot2" translatable="false">ОТВОРИ</string>
+    <string name="ot3" translatable="false">ОТВОРИ</string>
+    <string name="ot4" translatable="false">ОТВОРИ</string>
+    <string name="ot5" translatable="false">Црна Гора</string>
+    <string name="fg" translatable="false">Фрушка Гора</string>
+    <string name="todo2">TODO</string>
+    <string name="todo4">TODO</string>
+    <string name="todo5">TODO</string>
+    <string name="todo6">TODO</string>
+    <string name="textview1" translatable="false">TextView</string>
+    <string name="textview" translatable="false">TextView</string>
+    <string name="todo">TODO</string>
+    <string name="tes">Детаљније</string>
+    <string name="kss">Детаљније</string>
+    <string name="hello_blank_fragment"></string>
+    <string name="title_activity_mape_activitiy"></string>
+</resources>

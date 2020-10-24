@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeScreenActivity">
+
+    <RelativeLayout
+        android:layout_weight=".2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/fgAc"
+            android:layout_width="262dp"
+            android:layout_height="126dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="123dp"
+            android:layout_marginRight="123dp"
+            android:layout_marginBottom="12dp"
+            app:srcCompat="@drawable/fg"
+            android:contentDescription="@string/todo" />
+
+        <Button
+            android:id="@+id/fcStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="26dp"
+            android:layout_marginRight="26dp"
+            android:layout_marginBottom="13dp"
+            android:background="@color/colorAccent"
+            android:text="@string/ot" />
+
+        <TextView
+            android:id="@+id/fgText"
+            android:layout_width="115dp"
+            android:layout_height="41dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="11dp"
+            android:layout_marginRight="11dp"
+            android:layout_marginBottom="74dp"
+            android:gravity="center"
+            android:text="@string/fg"
+            android:textColor="#096154"
+            android:textIsSelectable="false"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".2">
+
+        <Button
+            android:id="@+id/ksStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="26dp"
+            android:layout_marginRight="26dp"
+            android:layout_marginBottom="13dp"
+            android:background="@color/colorAccent"
+            android:text="@string/ot2" />
+
+        <TextView
+            android:id="@+id/kcText"
+            android:layout_width="121dp"
+            android:layout_height="54dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="74dp"
+            android:gravity="center"
+            android:text="@string/ks"
+            android:textColor="#096154"
+            android:textIsSelectable="false"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:id="@+id/ksAc"
+            android:layout_width="262dp"
+            android:layout_height="126dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="123dp"
+            android:layout_marginRight="123dp"
+            android:layout_marginBottom="12dp"
+            app:srcCompat="@drawable/kc"
+            android:contentDescription="@string/todo" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight=".2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/cgStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="26dp"
+            android:layout_marginRight="26dp"
+            android:layout_marginBottom="13dp"
+            android:background="@color/colorAccent"
+            android:text="@string/ot3" />
+
+        <TextView
+            android:id="@+id/cgText"
+            android:layout_width="115dp"
+            android:layout_height="41dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="11dp"
+            android:layout_marginRight="11dp"
+            android:layout_marginBottom="74dp"
+            android:gravity="center"
+            android:text="@string/ot5"
+            android:textColor="#096154"
+            android:textIsSelectable="false"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:id="@+id/cgAc"
+            android:layout_width="262dp"
+            android:layout_height="126dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="123dp"
+            android:layout_marginRight="123dp"
+            android:layout_marginBottom="12dp"
+            app:srcCompat="@drawable/cg"
+            android:contentDescription="@string/todo" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight=".2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/ockStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="4dp"
+            android:background="@color/colorAccent"
+            android:text="@string/ot4" />
+
+        <TextView
+            android:id="@+id/ockText"
+            android:layout_width="129dp"
+            android:layout_height="92dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="55dp"
+            android:gravity="center"
+            android:text="@string/ock"
+            android:textColor="#096154"
+            android:textIsSelectable="false"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:id="@+id/ockAc"
+            android:layout_width="262dp"
+            android:layout_height="126dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="123dp"
+            android:layout_marginRight="123dp"
+            android:layout_marginBottom="12dp"
+            app:srcCompat="@drawable/ock"
+            android:contentDescription="@string/todo" />
+    </RelativeLayout>
+</LinearLayout>
